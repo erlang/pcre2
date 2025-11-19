@@ -695,7 +695,6 @@ for c in range(MAX_UNICODE):
           found = 1
 
       # Add new characters to an existing set
-      # TODO: make sure the data doesn't overflow a list[]
 
       if found:
         found = 0
@@ -790,9 +789,6 @@ just one of these tables is actually needed. When compiling the library, some
 headers are needed. */
 
 #ifndef PCRE2_PCRE2TEST
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
 #include "pcre2_internal.h"
 #endif /* PCRE2_PCRE2TEST */
 

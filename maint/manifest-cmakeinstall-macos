@@ -11,20 +11,22 @@ drwxr-xr-x install-dir/lib/cmake
 drwxr-xr-x install-dir/lib/cmake/pcre2
 -rw-r--r-- install-dir/lib/cmake/pcre2/pcre2-config-version.cmake
 -rw-r--r-- install-dir/lib/cmake/pcre2/pcre2-config.cmake
--rwxr-xr-x install-dir/lib/libpcre2-16.0.14.0.dylib
-lrwxr-xr-x install-dir/lib/libpcre2-16.0.dylib -> libpcre2-16.0.14.0.dylib
+-rw-r--r-- install-dir/lib/cmake/pcre2/pcre2-targets-release.cmake
+-rw-r--r-- install-dir/lib/cmake/pcre2/pcre2-targets.cmake
+-rwxr-xr-x install-dir/lib/libpcre2-16.0.15.0.dylib
+lrwxr-xr-x install-dir/lib/libpcre2-16.0.dylib -> libpcre2-16.0.15.0.dylib
 -rw-r--r-- install-dir/lib/libpcre2-16.a
 lrwxr-xr-x install-dir/lib/libpcre2-16.dylib -> libpcre2-16.0.dylib
--rwxr-xr-x install-dir/lib/libpcre2-32.0.14.0.dylib
-lrwxr-xr-x install-dir/lib/libpcre2-32.0.dylib -> libpcre2-32.0.14.0.dylib
+-rwxr-xr-x install-dir/lib/libpcre2-32.0.15.0.dylib
+lrwxr-xr-x install-dir/lib/libpcre2-32.0.dylib -> libpcre2-32.0.15.0.dylib
 -rw-r--r-- install-dir/lib/libpcre2-32.a
 lrwxr-xr-x install-dir/lib/libpcre2-32.dylib -> libpcre2-32.0.dylib
--rwxr-xr-x install-dir/lib/libpcre2-8.0.14.0.dylib
-lrwxr-xr-x install-dir/lib/libpcre2-8.0.dylib -> libpcre2-8.0.14.0.dylib
+-rwxr-xr-x install-dir/lib/libpcre2-8.0.15.0.dylib
+lrwxr-xr-x install-dir/lib/libpcre2-8.0.dylib -> libpcre2-8.0.15.0.dylib
 -rw-r--r-- install-dir/lib/libpcre2-8.a
 lrwxr-xr-x install-dir/lib/libpcre2-8.dylib -> libpcre2-8.0.dylib
--rwxr-xr-x install-dir/lib/libpcre2-posix.3.0.6.dylib
-lrwxr-xr-x install-dir/lib/libpcre2-posix.3.dylib -> libpcre2-posix.3.0.6.dylib
+-rwxr-xr-x install-dir/lib/libpcre2-posix.3.0.7.dylib
+lrwxr-xr-x install-dir/lib/libpcre2-posix.3.dylib -> libpcre2-posix.3.0.7.dylib
 -rw-r--r-- install-dir/lib/libpcre2-posix.a
 lrwxr-xr-x install-dir/lib/libpcre2-posix.dylib -> libpcre2-posix.3.dylib
 drwxr-xr-x install-dir/lib/pkgconfig
@@ -87,6 +89,7 @@ drwxr-xr-x install-dir/share/doc/pcre2/html
 -rw-r--r-- install-dir/share/doc/pcre2/html/pcre2_match_data_create.html
 -rw-r--r-- install-dir/share/doc/pcre2/html/pcre2_match_data_create_from_pattern.html
 -rw-r--r-- install-dir/share/doc/pcre2/html/pcre2_match_data_free.html
+-rw-r--r-- install-dir/share/doc/pcre2/html/pcre2_next_match.html
 -rw-r--r-- install-dir/share/doc/pcre2/html/pcre2_pattern_convert.html
 -rw-r--r-- install-dir/share/doc/pcre2/html/pcre2_pattern_info.html
 -rw-r--r-- install-dir/share/doc/pcre2/html/pcre2_serialize_decode.html
@@ -195,6 +198,7 @@ drwxr-xr-x install-dir/share/man/man3
 -rw-r--r-- install-dir/share/man/man3/pcre2_match_data_create.3
 -rw-r--r-- install-dir/share/man/man3/pcre2_match_data_create_from_pattern.3
 -rw-r--r-- install-dir/share/man/man3/pcre2_match_data_free.3
+-rw-r--r-- install-dir/share/man/man3/pcre2_next_match.3
 -rw-r--r-- install-dir/share/man/man3/pcre2_pattern_convert.3
 -rw-r--r-- install-dir/share/man/man3/pcre2_pattern_info.3
 -rw-r--r-- install-dir/share/man/man3/pcre2_serialize_decode.3
